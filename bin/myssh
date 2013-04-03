@@ -1,0 +1,3 @@
+#!/bin/bash
+
+npssh $1 $SSHD_USERNAME $SSHD_PASSWORD
