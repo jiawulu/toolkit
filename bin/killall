@@ -1,0 +1,6 @@
+#!/bin/bash
+KEYWORD=$1
+
+ps -ef|grep $KEYWORD |grep -v "grep" | grep -v killall
+
+ps -ef|grep $KEYWORD |grep -v "grep" | grep -v killall |awk '{print $2}' | xargs kill -9 
