@@ -9,4 +9,4 @@
 	url = git@github.com:jiawulu/todo.txt-cli.git
 [submodule "modules/goagent"]
 	path = modules/goagent
-	url = https://github.com/jiawulu/goagent
+	url = git@github.com:jiawulu/goagent.git
