@@ -6,7 +6,8 @@ case $1 in
             /usr/sbin/nginx
                         ;;
         stop)
-                kill -2 `ps -ef|grep "nginx"|grep -v "grep"|awk '{print $2}' `
+            pkill -9 nginx
+            ps -ef|grep "nginx" |grep -v "grep" |awk '{print $2}' | xargs kill -9
                         ;;
         restart)
                 cd "$CMD"
@@ -17,4 +18,5 @@ case $1 in
         echo $"Usage: $0 {start|stop|restart}"
         exit 1
 esac
+C
 exit 0

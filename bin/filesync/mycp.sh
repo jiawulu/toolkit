@@ -6,6 +6,7 @@ from=$1
 to=$2
 fileName=$3
 
+## string replace
 toName=${fileName/$from/$to};
 
 parent_dir=`dirname $toName`
