@@ -11,6 +11,15 @@
 3. tmux
 >虚拟终端
 
+4. zsh
+>oh-my-zsh
+
+5. vim
+>spf13
+
+6. todo.txt
+7. goagent
+
 ### gui
 
 1. dolphi
@@ -23,6 +32,8 @@
 
 6. foxitreader
 >轻量级的pdf阅读器
+
+7. conky
 
 ## 网络
 
