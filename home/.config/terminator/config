@@ -2,7 +2,7 @@
   title_hide_sizetext = True
   sticky = True
 [keybindings]
-  hide_window = F122
+  hide_window = F12
 [profiles]
   [[default]]
     use_system_font = False
