@@ -1,0 +1,31 @@
+[global_config]
+  title_hide_sizetext = True
+  sticky = True
+[keybindings]
+  hide_window = F122
+[profiles]
+  [[default]]
+    use_system_font = False
+    font = YaHei Consolas Hybrid 13
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+  [[quake]]
+    [[[child0]]]
+      position = -26:-3
+      type = Window
+      order = 0
+      parent = ""
+      size = 1917, 1031
+    [[[terminal1]]]
+      profile = default
+      type = Terminal
+      order = 0
+      parent = child0
+[plugins]
