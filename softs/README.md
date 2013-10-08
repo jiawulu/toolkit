@@ -19,9 +19,10 @@
 3. wps
 4. ~~libreoffice~~
 5. acroread
-> pdf reader
+>pdf reader
+
 6. foxitreader
-> 轻量级的pdf阅读器
+>轻量级的pdf阅读器
 
 ## 网络
 
